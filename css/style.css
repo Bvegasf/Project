@@ -9,7 +9,7 @@ body{
     font-family: 'Red Hat Text', sans-serif;
 }
 :root{
-   --red:#ff2e63;
+   --red:#ff2e62;
    --black:#252a34;
    --blue:#08d9d6;
    --white:#eaeaea;
@@ -413,6 +413,7 @@ width: calc(30% - 10px);
  .palabras{
     width: 100%;
     margin-top: 120px;
+    
 }
 .palabras .palabras-t{
     width: 50%;
@@ -542,7 +543,7 @@ width: calc(30% - 10px);
     background: #fff;
     padding:30px;
     border-radius: 50px;
-    border: 1.5px solid var(--red);
+    border: 1.5px solid black;
 }
 .footer .formulario-content #formulario{
     display: flex;
@@ -561,7 +562,7 @@ width: calc(30% - 10px);
     margin:auto;
     border-radius: 24px;
     outline: none;
-    border:1.5px solid var(--red);
+    border:1.5px solid var(--black);
     text-align: center;
     font-size: 18px;
     color: var(--black);
@@ -573,7 +574,7 @@ width: calc(30% - 10px);
     padding: 20px;
     border-radius: 24px;
     outline: none;
-    border:1.5px solid var(--red);
+    border:1.5px solid black;
     font-size: 15px;
     color: var(--black);
 }
@@ -588,7 +589,7 @@ width: calc(30% - 10px);
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    background: var(--red);
+    background: black;
     border: none;
     outline: none;
     border-radius: 20px;
